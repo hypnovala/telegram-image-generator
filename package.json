@@ -1,0 +1,23 @@
+{
+  "name": "telegram-image-generator",
+  "version": "1.0.0",
+  "description": "Telegram bot that generates images using OpenAI and sends them back to users.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "openai",
+    "image-generation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^4.56.0"
+  }
+}
